@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
-    namespace: gowtham
+  namespace: gowtham
 spec:
   replicas: 3
   selector:
